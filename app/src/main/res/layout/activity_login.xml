@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+
+    <LinearLayout
+        android:padding="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_70sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/icon_login"
+            android:layout_width="@dimen/_80sdp"
+            android:layout_height="@dimen/_80sdp"/>
+
+        <EditText
+            android:id="@+id/etUsername"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:hint="Username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:inputType="textPassword"
+            android:id="@+id/etPassword"
+            android:textSize="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:hint="Password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/btnLogin"
+            android:backgroundTint="@color/colorAccent"
+            app:cardCornerRadius="@dimen/_9sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_50sdp">
+
+            <TextView
+                android:textSize="@dimen/_25sdp"
+                android:textStyle="bold"
+                android:textColor="#FFFFFF"
+                android:gravity="center"
+                android:text="Login"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

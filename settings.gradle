@@ -1,0 +1,2 @@
+rootProject.name='Uts_MobileDev'
+include ':app'
